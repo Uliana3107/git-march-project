@@ -26,10 +26,10 @@ public class Application {
         int sum = a+c;
         System.out.println("Hello, Uliana");
         System.out.println("Uliana");
-        System.out.println(a+b);
-        int v = sum-60;
+        System.out.println(a+b*8);
+        int v = sum-80;
         v++;
-        System.out.println(v);
+        System.out.println(v++);
     }
     public static void stringTest1 () {
         System.out.println("Сегодня на улице лето");
