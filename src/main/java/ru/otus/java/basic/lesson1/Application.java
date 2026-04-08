@@ -8,7 +8,7 @@ public class Application {
     */
 
     public static void main(String[] args0) {
-        //  powerShell();
+        powerShell();
         int t;
         t = 5;
         if (t > 20) {
