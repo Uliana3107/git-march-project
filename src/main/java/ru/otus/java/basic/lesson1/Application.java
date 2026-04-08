@@ -13,9 +13,10 @@ public class Application {
         t = 5;
         if (t > 20) {
             // powerShell();
-            stringTest1();
-        } else stringTest2();
+           //stringTest1();
 
+        } else stringTest2();
+        intTest();
     }
 
     public static void powerShell () {
@@ -38,6 +39,14 @@ public class Application {
     public static void stringTest2 () {
        System.out.println("Сегодня на улице зима");
 
+    }
+    public static void intTest () {
+        float p;
+        int a,b;
+        a = 5;
+        b = 8;
+        int sum = a+b;
+        System.out.println(sum);
     }
 
 
